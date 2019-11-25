@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b6ea35b-d82e-4886-aaa2-390d4506ec88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="390">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +125,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="730" />
-    <option name="width" value="710" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-284" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -220,7 +221,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStudent.testLearn">
+  <component name="RunManager" selected="JUnit.TestInstructor">
+    <configuration name="TestInstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
@@ -286,6 +302,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestInstructor" />
         <item itemvalue="JUnit.TestStudent.testLearn" />
         <item itemvalue="JUnit.TestStudent.testInheritance" />
         <item itemvalue="JUnit.TestStudent.testImplementation" />
@@ -304,7 +321,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574689816905</updated>
       <workItem from="1574689820185" duration="738000" />
-      <workItem from="1574693175874" duration="5395000" />
+      <workItem from="1574693175874" duration="6473000" />
     </task>
     <servers />
   </component>
@@ -323,7 +340,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6133000" />
+    <option name="totallyTimeSpent" value="7211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,10 +352,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <frame x="-284" y="-1057" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.251497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08945687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +373,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3819277" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
