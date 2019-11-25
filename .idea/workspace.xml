@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b6ea35b-d82e-4886-aaa2-390d4506ec88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="141">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                <state relative-caret-position="547">
+                  <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#150#151#0" expanded="true" />
@@ -51,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="570">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -192,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPeople.testAdd">
+  <component name="RunManager" selected="JUnit.TestPeople">
     <configuration name="TestInstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
@@ -203,6 +202,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
       <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,7 +238,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent.testImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPeople.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -233,14 +247,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
-      <option name="METHOD_NAME" value="testImplementation" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent.testInheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPeople.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -249,24 +263,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
-      <option name="METHOD_NAME" value="testInheritance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStudent.testLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interfaces-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
-      <option name="METHOD_NAME" value="testLearn" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPeople" />
+        <item itemvalue="JUnit.TestPeople.testFindById" />
+        <item itemvalue="JUnit.TestPeople.testRemove" />
         <item itemvalue="JUnit.TestPeople.testAdd" />
         <item itemvalue="JUnit.TestInstructor" />
-        <item itemvalue="JUnit.TestStudent.testLearn" />
-        <item itemvalue="JUnit.TestStudent.testInheritance" />
-        <item itemvalue="JUnit.TestStudent.testImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574689816905</updated>
       <workItem from="1574689820185" duration="738000" />
-      <workItem from="1574693175874" duration="12652000" />
+      <workItem from="1574693175874" duration="13487000" />
     </task>
     <servers />
   </component>
@@ -313,9 +311,18 @@
     <history-entry file="TestInstructor - 2019.11.25 at 12h 49m 28s.xml">
       <configuration name="TestInstructor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPeople_testAdd - 2019.11.25 at 15h 23m 21s.xml">
+      <configuration name="TestPeople.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPeople_testRemove - 2019.11.25 at 15h 27m 45s.xml">
+      <configuration name="TestPeople.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPeople_testFindById - 2019.11.25 at 15h 33m 22s.xml">
+      <configuration name="TestPeople.testFindById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13390000" />
+    <option name="totallyTimeSpent" value="14225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +337,7 @@
     <frame x="-284" y="-1057" width="1920" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14057508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14057508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +347,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32882413" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32882413" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3278328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3487349" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3487349" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="547">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -477,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
