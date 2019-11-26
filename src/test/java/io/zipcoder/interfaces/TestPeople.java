@@ -27,7 +27,7 @@ public class TestPeople {
     }
 
     @Test
-    public void testFindById() throws Exception{
+    public void testFindById() throws Exception {
         People supernovas = new People();
         Person luffy = new Person(1,"Monkey D. Luffy");
         Person kid = new Person(2, "Eustass Kid");

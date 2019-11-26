@@ -6,10 +6,10 @@ import java.util.Iterator;
 
 public class People implements Iterable{
 
-    ArrayList<Person> personList;
+    private ArrayList<Person> personList;
 
     public People(){
-        personList = new ArrayList();
+        personList = new ArrayList<>();
     }
 
     public void add(Person pirate){
