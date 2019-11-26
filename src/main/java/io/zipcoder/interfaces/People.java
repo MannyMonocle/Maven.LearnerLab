@@ -5,13 +5,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class People implements Iterable{
-
+    //Field
     private ArrayList<Person> personList;
 
+    //Constructor
     public People(){
         personList = new ArrayList<>();
     }
 
+    //Methods
     public void add(Person pirate){
         personList.add(pirate);
     }

@@ -6,9 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class Students extends People {
-
+    //Field
     private static final Students INSTANCE = new Students();
 
+    //Constructor
     private Students(){
         Student s1 = new Student(224760,"Marshall D. Teach");
         Student s2 = new Student(470000, "Eustass Kid");
@@ -21,5 +22,6 @@ public final class Students extends People {
         for(Student pirate : superNovas){ super.add(pirate); }
     }
 
+    //Getter
     public static Students getInstance(){ return INSTANCE; }
 }

@@ -2,10 +2,12 @@ package io.zipcoder.interfaces;
 
 public class Instructor extends Person implements Teacher{
 
+    //Constructor
     public Instructor(long id, String name){
         super(id,name);
     }
 
+    //Methods
     public void teach(Learner learner, double numberOfHours){
         learner.learn(numberOfHours);
     }

@@ -2,8 +2,10 @@ package io.zipcoder.interfaces;
 
 public class Instructors extends People{
 
+    //Fields
     private static final Instructors INSTANCE = new Instructors();
 
+    //Constructor
     private Instructors(){
         Instructor m1 = new Instructor(55648,"Gol D. Roger");
         Instructor m2 = new Instructor(50460,"Edward Newgate");
@@ -13,5 +15,6 @@ public class Instructors extends People{
         for(Instructor emperor : sanko){ super.add(emperor); }
     }
 
+    //Getter
     public static Instructors getInstance() {return INSTANCE; }
 }
