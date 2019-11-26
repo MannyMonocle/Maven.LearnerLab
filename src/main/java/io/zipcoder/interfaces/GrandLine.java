@@ -14,9 +14,8 @@ public class GrandLine {
     }
 
     public void hostLecture(long id, double numberOfHours) throws Exception{
-        Student[] kids = (Student[]) students.toArray();
         Instructor prof =(Instructor) instructors.findById(id);
-        prof.lecture(kids,numberOfHours);
+        hostLecture(prof,numberOfHours);
     }
 
     //Getter

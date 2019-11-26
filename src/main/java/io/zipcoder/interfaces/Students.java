@@ -1,6 +1,7 @@
 package io.zipcoder.interfaces;
 
 import com.sun.javafx.css.converters.SizeConverter;
+import jdk.nashorn.internal.runtime.ECMAException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +23,24 @@ public final class Students extends People {
         for(Student pirate : superNovas){ super.add(pirate); }
     }
 
+    @Override
+    public Student[] toArray() {
+        Long[] bounties = { (long) 224760, (long) 470000, (long) 350000, (long) 320000, (long) 321000, (long) 300000};
+        Student[] rookies = new Student[6];
+        int i = 0;
+
+        for (Long bounty : bounties) {
+            try {
+                Student pirate = (Student) INSTANCE.findById(bounty);
+                rookies[i] = pirate;
+                i++;
+            } catch(Exception e) {return null;}
+        }
+        return rookies;
+    }
+
     //Getter
     public static Students getInstance(){ return INSTANCE; }
+
+
 }
