@@ -9,19 +9,19 @@ public class GrandLine {
 
     //Methods
     public void hostLecture(Teacher teacher, double numberOfHours){
-        Student[] kids = (Student[]) students.toArray();
+        Student[] kids = students.toArray();
         teacher.lecture(kids,numberOfHours);
     }
 
     public void hostLecture(long id, double numberOfHours) throws Exception{
-        Instructor prof =(Instructor) instructors.findById(id);
+        Instructor prof =instructors.findById(id);
         hostLecture(prof,numberOfHours);
     }
 
     //Getter
     public HashMap<Student, Double> getStudyMap(){
         HashMap ans = new HashMap();
-        Student[] kids = (Student[]) students.toArray();
+        Student[] kids = students.toArray();
 
         for(Student kid : kids){ ans.put(kid,kid.getTotalStudyTime()); }
         return ans;

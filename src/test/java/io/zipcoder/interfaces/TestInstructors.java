@@ -11,7 +11,7 @@ public class TestInstructors {
         Instructors sanko = Instructors.getInstance();
 
         for(Long bounty : bounties){
-            Instructor pirate = (Instructor) sanko.findById(bounty);
+            Instructor pirate = sanko.findById(bounty);
             Assert.assertTrue(sanko.contains(pirate));
         }
     }

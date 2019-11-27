@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b6ea35b-d82e-4886-aaa2-390d4506ec88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,14 +22,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.3720485">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/GrandLine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -31,15 +50,25 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="62">
-                  <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#241#242#0" expanded="true" />
-                    <element signature="e#287#288#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -58,23 +87,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/GrandLine.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestGrandLine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -82,11 +98,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="106">
+                  <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -106,6 +134,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -117,19 +153,19 @@
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudent.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/PersonNotFound.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Teacher.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestGrandLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/GrandLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java" />
       </list>
     </option>
   </component>
@@ -233,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGrandLine.testHostLecture">
+  <component name="RunManager" selected="JUnit.TestPeople">
     <configuration name="TestGrandLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
@@ -249,7 +285,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGrandLine.testHostLecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -258,9 +294,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestGrandLine" />
-      <option name="METHOD_NAME" value="testHostLecture" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,7 +315,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPeople.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -290,13 +325,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
       <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
-      <option name="METHOD_NAME" value="testFindById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudentsSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="io.zipcoder.interfaces in interfaces-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -305,19 +339,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudentsSingleton" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestGrandLine.testHostLecture" />
-        <item itemvalue="JUnit.TestGrandLine" />
-        <item itemvalue="JUnit.TestStudentsSingleton" />
+        <item itemvalue="JUnit.TestPeople" />
+        <item itemvalue="JUnit.io.zipcoder.interfaces in interfaces-1" />
         <item itemvalue="JUnit.TestInstructors" />
-        <item itemvalue="JUnit.TestPeople.testFindById" />
+        <item itemvalue="JUnit.TestInstructor" />
+        <item itemvalue="JUnit.TestGrandLine" />
       </list>
     </recent_temporary>
   </component>
@@ -333,44 +366,44 @@
       <updated>1574689816905</updated>
       <workItem from="1574689820185" duration="738000" />
       <workItem from="1574693175874" duration="18045000" />
-      <workItem from="1574785623647" duration="16314000" />
+      <workItem from="1574785623647" duration="20682000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStudentsSingleton - 2019.11.26 at 13h 24m 43s.xml">
+    <history-entry file="TestPeople - 2019.11.26 at 19h 08m 09s.xml">
+      <configuration name="TestPeople" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStudentsSingleton - 2019.11.26 at 19h 08m 14s.xml">
       <configuration name="TestStudentsSingleton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestInstructors - 2019.11.26 at 14h 06m 59s.xml">
+    <history-entry file="TestPerson - 2019.11.26 at 19h 08m 17s.xml">
+      <configuration name="TestPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStudent - 2019.11.26 at 19h 08m 21s.xml">
+      <configuration name="TestStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGrandLine - 2019.11.26 at 19h 08m 24s.xml">
+      <configuration name="TestGrandLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInstructor - 2019.11.26 at 19h 08m 39s.xml">
+      <configuration name="TestInstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInstructors - 2019.11.26 at 19h 08m 44s.xml">
       <configuration name="TestInstructors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStudentsSingleton - 2019.11.26 at 14h 07m 46s.xml">
-      <configuration name="TestStudentsSingleton" configurationId="JUnit" />
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.11.26 at 19h 10m 22s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 11m 04s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
+    <history-entry file="TestPeople - 2019.11.26 at 19h 11m 11s.xml">
+      <configuration name="TestPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 12m 56s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 14m 52s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 23m 30s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 31m 38s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrandLine - 2019.11.26 at 16h 36m 54s.xml">
-      <configuration name="TestGrandLine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrandLine_testHostLecture - 2019.11.26 at 17h 00m 40s.xml">
-      <configuration name="TestGrandLine.testHostLecture" configurationId="JUnit" />
+    <history-entry file="TestPeople - 2019.11.26 at 19h 12m 09s.xml">
+      <configuration name="TestPeople" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35097000" />
+    <option name="totallyTimeSpent" value="39465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +418,7 @@
     <frame x="-284" y="-1057" width="1910" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,7 +427,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32604167" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32604167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +435,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26145834" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26145834" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -415,49 +448,43 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1611349" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32604167" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26145834" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/PersonNotFound.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -466,13 +493,6 @@
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -497,30 +517,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestGrandLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="780">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/GrandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestGrandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestInstructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -537,31 +620,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudentsSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPeople.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="585">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/GrandLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>

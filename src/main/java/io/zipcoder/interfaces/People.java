@@ -60,4 +60,8 @@ public abstract class People<E extends  Person> implements Iterable{
     public Iterator iterator() {
         return personList.iterator();
     }
+
+    public E get(Integer i){
+        return personList.get(i);
+    }
 }

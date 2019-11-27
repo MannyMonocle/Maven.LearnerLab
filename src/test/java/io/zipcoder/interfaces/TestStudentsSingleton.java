@@ -13,7 +13,7 @@ public class TestStudentsSingleton {
         Students generation = Students.getInstance();
 
         for(Long bounty : bounties){
-            Student pirate = (Student) generation.findById(bounty);
+            Student pirate = generation.findById(bounty);
             Assert.assertTrue(generation.contains(pirate));
         }
     }

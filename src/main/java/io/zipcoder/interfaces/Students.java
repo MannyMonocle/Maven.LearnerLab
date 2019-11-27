@@ -6,7 +6,7 @@ import jdk.nashorn.internal.runtime.ECMAException;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Students extends People {
+public final class Students extends People<Student> {
     //Field
     private static final Students INSTANCE = new Students();
 
@@ -23,6 +23,8 @@ public final class Students extends People {
         for(Student pirate : superNovas){ super.add(pirate); }
     }
 
+
+    /*
     @Override
     public Student[] toArray() {
         Long[] bounties = { (long) 224760, (long) 470000, (long) 350000, (long) 320000, (long) 321000, (long) 300000};
@@ -38,9 +40,16 @@ public final class Students extends People {
         }
         return rookies;
     }
+     */
 
     //Getter
     public static Students getInstance(){ return INSTANCE; }
+
+    public Student[] toArray(){
+        Student[] pirates = new Student[INSTANCE.count()];
+        for(int i = 0; i < pirates.length; i++){ pirates[i] = INSTANCE.get(i); }
+        return pirates;
+    }
 
 
 }
